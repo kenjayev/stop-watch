@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(45deg, #cfcfcf, #bcbcbc);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.secundNumber{
+    background-color: cornsilk;
+    min-width: 470px;
+}
+.card-header h1{
+    font-size: 40px;
+}
+
+.time-box{
+    font-size: 80px;
+}
+
+.control-box{
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+.interval-box{
+    padding: 20px 0;
+    overflow-y: auto;
+    height: 200px;
+}
+
+.interval-box::-webkit-scrollbar{
+    width: 5px;
+}
+.interval-box::-webkit-scrollbar-thumb{
+    background: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.btn{
+    padding: 0;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+.btn img{
+    width:40px;
+    height: 40px;
+}
